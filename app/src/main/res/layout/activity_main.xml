@@ -33,7 +33,7 @@
             android:textSize="15dp"
             android:layout_marginStart="10dp"
             android:textColor="@color/colorBlack"
-            android:text="Andaman &amp; Nicobar Dashboard"
+            android:text="Punjab Dashboard"
             android:layout_toRightOf="@+id/toolbar_icon"
             android:layout_marginLeft="10dp" />
 

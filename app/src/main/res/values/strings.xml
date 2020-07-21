@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AN-Covid19 Project</string>
+    <string name="app_name">PB-Covid19 Project</string>
 
     <string-array name="category_food_provider">
         <item>Select</item>

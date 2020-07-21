@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     String[] web = {
             "Corona Status",
             "Home Treatment",
+            "Toll Free Numbers",
             "My Health Status",
             "Health Cares",
             "Medical stores",
@@ -71,13 +72,13 @@ public class MainActivity extends AppCompatActivity {
             "Donate Funds",
             "Online Education",
             "Government Orders",
-            "Tweets",
             "FAQs"
 
     } ;
     int[] imageId = {
             R.drawable.corona,
             R.drawable.home,
+            R.drawable.phone,
             R.drawable.health,
             R.drawable.healthcare,
             R.drawable.medical_store,
@@ -91,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.donate,
             R.drawable.education,
             R.drawable.governmentorder,
-            R.drawable.tweet,
             R.drawable.faq
 
     };
@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONObject jsonObject = response.getJSONObject("AN").getJSONObject("total");
+                            JSONObject jsonObject = response.getJSONObject("PB").getJSONObject("total");
                             String confirmed = jsonObject.getString("confirmed");
                             String tested = jsonObject.getString("tested");
                             String recovered = jsonObject.getString("recovered");

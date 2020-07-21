@@ -3,12 +3,12 @@ package com.pbcovid19project.Models;
 public class Jsons {
 
     String home_treatment_images, home_treatment_links, lab_test, donate,
-            tweets, faq, epass, corona, cbse, vocational_education, go;
+            tweets, faq, epass, corona, cbse, vocational_education, go, toll_numbers;
 
     public Jsons() {
     }
 
-    public Jsons(String home_treatment_images, String home_treatment_links, String lab_test, String donate, String tweets, String faq, String epass, String corona, String cbse, String vocational_education, String go) {
+    public Jsons(String home_treatment_images, String home_treatment_links, String lab_test, String donate, String tweets, String faq, String epass, String corona, String cbse, String vocational_education, String go, String toll_numbers) {
         this.home_treatment_images = home_treatment_images;
         this.home_treatment_links = home_treatment_links;
         this.lab_test = lab_test;
@@ -20,6 +20,7 @@ public class Jsons {
         this.cbse = cbse;
         this.vocational_education = vocational_education;
         this.go = go;
+        this.toll_numbers = toll_numbers;
     }
 
     public String getHome_treatment_images() {
@@ -108,5 +109,13 @@ public class Jsons {
 
     public void setGo(String go) {
         this.go = go;
+    }
+
+    public String getToll_numbers() {
+        return toll_numbers;
+    }
+
+    public void setToll_numbers(String toll_numbers) {
+        this.toll_numbers = toll_numbers;
     }
 }
